@@ -1,0 +1,36 @@
+{
+    "TestTable1": [
+      { "id": 1, "name": "Alice",   "score": 95.5, "active": true,  "remarks": "Excellent" },
+      { "id": 2, "name": "Bob",     "score": 85,   "active": false, "remarks": null },
+      { "id": 3, "name": "Charlie", "score": 72,   "active": true,  "remarks": "Average" },
+      { "id": 4, "name": "Dana",    "score": 88,   "active": true,  "remarks": "Good job" }
+    ],
+  
+    "TestTable2": [
+      { "id": 1, "name": "Alice",   "age": 30 },
+      { "id": 2, "name": "Bob",     "age": 25 },
+      { "id": 3, "name": "Charlie", "age": 30 },
+      { "id": 4, "name": "David",   "age": 40 }
+    ],
+  
+    "TestTable3": [
+      { "x": "apple",  "y": "red" },
+      { "x": "apple",  "y": "green" },
+      { "x": "banana", "y": "red" }
+    ],
+  
+    "TestTableMixed": [
+      { "col": 123 },
+      { "col": "text" },
+      { "col": null },
+      { "col": 456 }
+    ],
+  
+    "TestMultiKey": [
+      { "p": 1, "q": "X", "r": 10 },
+      { "p": 1, "q": "X", "r": 20 },
+      { "p": 1, "q": "Y", "r": 10 },
+      { "p": 2, "q": "X", "r": 10 }
+    ]
+  }
+  
