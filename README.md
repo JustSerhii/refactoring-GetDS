@@ -30,3 +30,22 @@
   { "x": "apple",  "y": "green" },
   { "x": "banana", "y": "yellow" }
 ]
+
+Descriptor Set for table 'TestTable3':
+---------------------------------------
+Column: x
+  candidateKey: false
+  distinctCount: 2
+  maxLength: 6
+  nonNullCount: 3
+  type: "String"
+---------------------------------------
+Column: y
+  candidateKey: true
+  distinctCount: 3
+  maxLength: 6
+  nonNullCount: 3
+  type: "String"
+---------------------------------------
+Multi-Column Candidate Keys:
+  [ x, y ]
